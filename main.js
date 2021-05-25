@@ -13,6 +13,11 @@ client.on('message', message =>{
 if(message.content === prefix + 'youtube'){
         message.channel.send('https://www.youtube.com/');
     }
+
+    if(message.content === prefix + 'twitch'){
+        message.channel.send('https://twitch.tv/');
+    }  
+
 })
 
 client.login(process.env.token);
