@@ -20,4 +20,4 @@ if(message.content === prefix + 'youtube'){
 
 })
 
-client.login(process.env.token);
+client.login(pp);
